@@ -5,16 +5,22 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
-      { path: 'planets',
-        component: () => import('pages/Planets.vue'),
-        meta: {
-          title: 'Planets'
-        }
-      },
       { path: 'people',
         component: () => import('pages/People.vue'),
         meta: {
           title: 'People'
+        }
+      },
+      { path: 'films',
+        component: () => import('pages/Films.vue'),
+        meta: {
+          title: 'Films'
+        }
+      },
+      { path: 'planets',
+        component: () => import('pages/Planets.vue'),
+        meta: {
+          title: 'Planets'
         }
       }
     ]

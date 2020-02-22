@@ -62,16 +62,15 @@ export default {
           link: 'http://localhost:8080/#/people'
         },
         {
-          title: 'Planets',
-          icon: 'public',
-          link: 'http://localhost:8080/#/planets'
+          title: 'Films',
+          icon: 'local_movies',
+          link: 'http://localhost:8080/#/films'
         },
         {
           title: 'Planets',
           icon: 'public',
           link: 'http://localhost:8080/#/planets'
         },
-        
       ]
     }
   }
