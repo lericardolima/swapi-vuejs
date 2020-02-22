@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     getPeople() {
-      this.$axios.get('https://swapi.co/api/people/')
+      this.$axios.get('/people')
         .then(response => {
           this.people = response.data.results;
         });

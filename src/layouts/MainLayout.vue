@@ -59,17 +59,17 @@ export default {
         {
           title: 'People',
           icon: 'face',
-          link: 'http://localhost:8080/#/people'
+          link: '/people'
         },
         {
           title: 'Films',
           icon: 'local_movies',
-          link: 'http://localhost:8080/#/films'
+          link: '/films'
         },
         {
           title: 'Planets',
           icon: 'public',
-          link: 'http://localhost:8080/#/planets'
+          link: '/planets'
         },
       ]
     }

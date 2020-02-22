@@ -28,7 +28,7 @@ export default {
   },
   methods: {
     getPlanets() {
-      this.$axios.get('https://swapi.co/api/planets/')
+      this.$axios.get('/planets')
         .then(response => {
           this.planets = response.data.results;
         });

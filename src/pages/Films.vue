@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     getFilms() {
-      this.$axios.get('https://swapi.co/api/films/')
+      this.$axios.get('/films')
         .then(response => {
           this.films = response.data.results
               .sort((a,b) => a.episode_id - b.episode_id);
