@@ -10,6 +10,12 @@ const routes = [
         meta: {
           title: 'Planets'
         }
+      },
+      { path: 'people',
+        component: () => import('pages/People.vue'),
+        meta: {
+          title: 'People'
+        }
       }
     ]
   }

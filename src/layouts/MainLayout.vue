@@ -57,9 +57,9 @@ export default {
       appTitle: 'Star Wars',
       essentialLinks: [
         {
-          title: 'Planets',
-          icon: 'public',
-          link: 'http://localhost:8080/#/planets'
+          title: 'People',
+          icon: 'face',
+          link: 'http://localhost:8080/#/people'
         },
         {
           title: 'Planets',
